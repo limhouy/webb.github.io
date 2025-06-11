@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #94cbdd;
+      color: #0593ff;
+    }
+
+   
+
+    .left,.right {
+      width: 50%;
+      padding: 3rem;
+        border-radius: 10px;
+    }
+    
+
+    .left {
+      background-color: #043255;
+      color: white;
+      position: relative;
+      font-family: kh bl lazysmooth;
+
+      display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+      left: 25%;
+            font-family: kh bl lazysmooth;
+            
+
+        
+  
+    }
+
+    .left::before {
+      content: "";
+      background: url('coffee-cup.png') no-repeat center center / contain;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 300px;
+      z-index: 1;
+    }
+
+    .right h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-family: kh bl lazysmooth;
+    }
+
+    .right p {
+      margin-bottom: 2rem;
+      color: #555;
+      font-family: kh bl lazysmooth;
+      
+    }
+
+    .btn {
+      background-color: #043255;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+  
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #fff;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+      font-family: kh bl lazysmooth;
+    }
+
+    nav a {
+      text-decoration: none;
+      color:  #043255;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      font-family: kh bl lazysmooth;
+    }
+      .left img{
+       width: 500px;
+       height: 350px;
+       flex: 10px;
+      }
+      .container{
+        font-weight: bold;
+      font-size: 1.5rem;
+      font-family: kh bl lazysmooth;
+
+      }
+      
+        
+
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Yumnine Food </div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Memu.html">Memu</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+  <div class="container">
+    <center><h3>KOREAN FOOD</h3></center>
+    <div class="left">
+      <!-- Coffee graphic will be placed via CSS background -->
+       <center><p>Korean food, or hansik, is known for its diverse dishes,
+         fermented ingredients, and a balanced blend of animal and plant products. A typical Korean meal features 
+        rice, kimchi, soup, a main course (often a stew or grilled meat),
+         and a variety of side dishes (banchan). </p></center>
+       <center><p>Enjoy your shrimp at its full flavor and juiciness by roasting them on a bed of coarse sea 
+        salt. Best devoured on the seaside with a bottle of soju but in your house is second best : </p></center>
+        <center><p>More often than not, customs concerned with the way food is eaten 
+          are meant to heighten the diners enjoyment of a meal. </p></center>
+       
+     
+    </div>
+    
+    
+  </div>
+</body>
+</html>
